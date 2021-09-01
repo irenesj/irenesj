@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+- 🌱 I'm currently learning Angular
 - 💬 Ask me about Java and web programming
 - 📬 Contact me:
 
