@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 - 💬 Ask me about Java and web programming
-- 📬 Contact me on <a href="https://www.linkedin.com/in/irenesanjose/">LinkedIn</a>
+- 📬 Contact me on <a href="https://www.linkedin.com/in/irenesanjose/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
 
 ### Languages and technologies
 
