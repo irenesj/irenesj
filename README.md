@@ -1,8 +1,6 @@
 ### Hi there 👋
 
-- 💬 Ask me about Java, HTML5 and CSS3
-- 📫 How to reach me: 
-
+- 💬 Ask me about Java and web programming
 
 ### Languages and technologies
 
