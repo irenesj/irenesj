@@ -8,4 +8,4 @@
 
 ### My GitHub stats
 
-[![Irene's GitHub stats](https://github-readme-stats.vercel.app/api?username=irenesj&show_icons=true&theme=synthwave)](https://github.com/irenesj/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=irenesj&langs_count=8)](https://github.com/irenesj.github.io/github-readme-stats)
+[![Irene's GitHub stats](https://github-readme-stats.vercel.app/api?username=irenesj&show_icons=true&theme=tokyonight)](https://github.com/irenesj/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=irenesj&langs_count=8)](https://github.com/irenesj.github.io/github-readme-stats)
