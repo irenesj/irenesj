@@ -8,7 +8,7 @@ body {
     background: repeating-linear-gradient(
     to right,
     #f6ba52,
-    #bfd39e 10px,
+    #DAF7A6 10px,
     #ebd0e8 10px,
     #ffd180 20px
     );
@@ -96,7 +96,7 @@ p {
 }
 
 
-a { color: rgb(221, 153, 76) }
+a { color: rgb(144, 12, 63) }
 a:hover { text-decoration: none; }
 
 
