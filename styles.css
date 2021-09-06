@@ -4,13 +4,13 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     color: rgb(58, 54, 54);
     line-height: 2;
-    background-color:#a1afa4; 
+    background-color:#f6ba52; 
     background: repeating-linear-gradient(
     to right,
     #f6ba52,
-    #F4D5CE 10px,
+  /*  #F4D5CE 10px,
     #DAF7A6 10px,
-    #c9eb8a 20px
+    #c9eb8a 20px*/
     );
     /*background-image: url(images/bird.png); 
     background-repeat: no-repeat; */
