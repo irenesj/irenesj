@@ -1,19 +1,10 @@
 /* //-- grids style overrides -- */
 body { 
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(58, 54, 54);
     line-height: 2;
-    background-color:#f6ba52; 
-    background: repeating-linear-gradient(
-    to right,
-    #f6ba52,
-  /*  #F4D5CE 10px,
-    #DAF7A6 10px,
-    #c9eb8a 20px*/
-    );
-    /*background-image: url(images/bird.png); 
-    background-repeat: no-repeat; */
+    background-color:whitesmoke; 
 
 }
 
@@ -23,15 +14,15 @@ body {
 
     padding: 2% 4%; 
     margin: 3% auto; 
-    background: #f5f5f5; 
-    border: solid rgb(221, 153, 76); 
+    background: white; 
+    border: solid rgb(221, 166, 103); 
     border-width: 8px 0 2px 0; 
     width: 40%;
 
 }
 
 
-/* //-- header, body, footer -- */
+/*-- header, body, footer -- */
 header { 
     
     margin: 2.5em 0 3em 0; 
@@ -47,7 +38,8 @@ header h2 {
 }
 
 .top-header {
-    background: whitesmoke;
+
+    background: white;
     height: 54px;
     
     background-image: linear-gradient(
@@ -58,13 +50,16 @@ header h2 {
       #FF5733 50%,
       firebrick 50%,
       firebrick 75%,
-      #DAF7A6 75%);
+      #DAF7A6 75%
+    );
+    
     background-size: 100% 6px;
     background-position: 50% 100%;
     background-repeat: no-repeat;
+    text-align: center;
   }
 
-#bd, footer { margin-bottom: 2em; }
+#bd, footer { margin-bottom: 0.5em; }
 .gf{ margin-top: 5%; }
 
 /* //-- footer -- */
@@ -96,7 +91,7 @@ header h1 {
 }
 
 
-h2 { font-size: 152%; }
+h2 { font-size: 152%; text-decoration: underline;}
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 
@@ -124,8 +119,8 @@ li {
 
 p.enlarge { 
     
-    font-size: 150%; 
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%; 
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 3em; 
     line-height: 27px; 
     border-bottom: 1px solid #ccc;
@@ -163,11 +158,11 @@ p.enlarge {
 /* //-- responsive design -- */
 @media only screen and (max-device-width: 900px) {
 
-    div#inner{ width: 90%; opacity: 80%; }
+    div#inner{ width: 90%; }
     body{ background-size: 100% auto;};
     p.enlarge { 
         
-        font-size: 140%; 
+        font-size: 100%; 
         padding-bottom: 3em; 
         padding-right: 0.1em;
         padding-left: 0.2em;
