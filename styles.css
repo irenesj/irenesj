@@ -8,9 +8,9 @@ body {
     background: repeating-linear-gradient(
     to right,
     #f6ba52,
-    #e0f3be 10px,
-    #ffd180 10px,
-    #ffd180 20px
+    #F4D5CE 10px,
+    #DAF7A6 10px,
+    #c9eb8a 20px
     );
     /*background-image: url(images/bird.png); 
     background-repeat: no-repeat; */
@@ -46,6 +46,23 @@ header h2 {
     text-transform: uppercase; 
 }
 
+.top-header {
+    background: whitesmoke;
+    height: 54px;
+    
+    background-image: linear-gradient(
+      to right, 
+      #FFC300,
+      #FFC300 25%,
+      #FF5733 25%,
+      #FF5733 50%,
+      firebrick 50%,
+      firebrick 75%,
+      #DAF7A6 75%);
+    background-size: 100% 6px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+  }
 
 #bd, footer { margin-bottom: 2em; }
 .gf{ margin-top: 5%; }
