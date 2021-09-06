@@ -66,7 +66,7 @@ header h2 {
 footer { 
     
     padding: 1em 0 5em 0; 
-    font-size: 110%; 
+    font-size: 100%; 
     border-top: 1px solid #ccc; 
     text-align: center; 
     word-spacing: 80%;
@@ -112,6 +112,7 @@ a:hover { text-decoration: none; }
 li { 
     
     line-height: 24px; 
+    list-style: none;
     border-bottom: 1px solid #ccc; 
 
 }
@@ -153,23 +154,3 @@ p.enlarge {
 .talent { width: 29%; float: left }
 .talent h2 { margin-bottom: 6px; }
 .gf div.first{width:70%;}
-
-
-/* //-- responsive design -- */
-@media only screen and (max-device-width: 900px) {
-
-    div#inner{ width: 90%; }
-    body{ background-size: 100% auto;};
-    p.enlarge { 
-        
-        font-size: 100%; 
-        padding-bottom: 3em; 
-        padding-right: 0.1em;
-        padding-left: 0.2em;
-        border-bottom: 1px solid #ccc;
-    
-    }
-    
-    
-}
-
