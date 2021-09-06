@@ -44,8 +44,6 @@ header {
 header h2 { 
     
     text-transform: uppercase; 
-    letter-spacing: 2px; 
-
 }
 
 
@@ -75,9 +73,8 @@ footer h2 {
 /* //-- core typography and style -- */
 header h1 { 
     
-    font-size: 310%; 
+    font-size: 300%; 
     text-transform: uppercase; 
-    letter-spacing: 0.150em;
 
 }
 
