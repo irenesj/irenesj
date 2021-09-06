@@ -5,10 +5,18 @@ body {
     color: rgb(24, 23, 23);
     line-height: 1.6;
     background-color:#a1afa4; 
-    background-image: url(images/bird.png); 
+    background: repeating-linear-gradient(
+    to right,
+    #f6ba52,
+    #f6ba52 10px,
+    #ffd180 10px,
+    #ffd180 20px
+    );
+    /*background-image: url(images/bird.png); */
     background-repeat: no-repeat; 
 
 }
+
 
 
 #inner { 
