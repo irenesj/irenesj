@@ -85,7 +85,7 @@ p {
 }
 
 
-a { color: rgb(144, 12, 63);}
+a { color: #C70039}
 a:hover { text-decoration: none; }
 
 
@@ -109,7 +109,7 @@ p.enlarge {
 }
 
 
-.first h2 { font-style: italic;}
+/*.first h2 { font-style: italic;}*/
 .last { border-bottom: 0 }
 
 .education { 
