@@ -152,14 +152,18 @@ footer h2 {
 } 
 
 /* Use a media query for responsive design */
-@media screen and (max-width: 720px){
+@media only screen and (max-device-width: 900px) {
 
-    .inner{
-      width: 100%;
+    div#inner{ width: 90%;}
+    p.enlarge { 
+
+        font-size: 140%; 
+        padding-bottom: 3em; 
+        padding-right: 0.1em;
+        padding-left: 0.2em;
+        border-bottom: 1px solid #ccc;
+
     }
 
-  /*  .top-header h1{
-        width: 100%;
-    }*/
 }
 
