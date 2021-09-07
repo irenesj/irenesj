@@ -16,7 +16,7 @@ body {
     background: white; 
     border: solid #FF5733; 
     border-width: 8px 0 2px 0;
-    width: 40%;
+    width: 45%;
     height: auto;
 
 }
@@ -155,7 +155,7 @@ footer h2 {
 @media screen and (min-width: 320px) and (max-width: 720px){
 
     .inner{
-      width: 95%;
+      width: 100%;
     }
 
     .top-header h1{
