@@ -17,6 +17,7 @@ body {
     border: solid #FF5733; 
     border-width: 8px 0 2px 0;
     width: 40%;
+    height: auto;
 
 }
 
@@ -108,8 +109,6 @@ p.enlarge {
 
 }
 
-
-/*.first h2 { font-style: italic;}*/
 .last { border-bottom: 0 }
 
 .education { 
@@ -133,7 +132,7 @@ p.enlarge {
 .talent h2 { margin-bottom: 6px; }
 .gf div.first{width:70%;}
 
-#bd, footer { margin-bottom: 0.5em; }
+#bd, footer { /*margin-bottom: 0.5em; */}
 .gf{ margin-top: 5%; }
 
 /* //-- footer -- */
@@ -157,9 +156,10 @@ footer h2 {
 } 
 
 /* Use a media query for responsive design */
-@media{
+@media only screen and (max-width: 480px){
+
     .inner{
       width: 95%;
     }
-  }
+}
 
