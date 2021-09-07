@@ -7,44 +7,10 @@ body {
 
 }
 
-.diamond1 {
-    height: 150px;
-    width: 150px;
-    background-color: #130C77;
-    transform: rotate(45deg);
-  }
-
-  .diamond2 {
-    height: 150px;
-    width: 150px;
-    margin-top: -2.5%;
-    margin-left: 3%;
-    background-color: #FF5733;
-    transform: rotate(45deg);
-  }
-
-  .diamond3 {
-    height: 150px;
-    width: 150px;
-    margin-top: -2%;
-    background-color: #6DBCAF;
-    transform: rotate(45deg);
-  }
-
-  .diamond4 {
-    height: 150px;
-    width: 150px;
-    margin-top: -2.5%;
-    margin-left: 3%;
-    background-color: #C70039;
-    transform: rotate(45deg);
-  }
-
 #inner { 
 
     padding: 2% 4%; 
-    margin-top: -15%;
-    margin-left: 25%;
+    margin: 3% auto;
     background: white; 
     border: solid #FF5733; 
     border-width: 8px 0 2px 0;
