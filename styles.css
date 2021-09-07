@@ -156,7 +156,7 @@ footer h2 {
 } 
 
 /* Use a media query for responsive design */
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
 
     .inner{
       width: 95%;
