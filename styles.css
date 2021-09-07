@@ -161,5 +161,9 @@ footer h2 {
     .inner{
       width: 95%;
     }
+
+    .top-header h1{
+        width: 100%;
+    }
 }
 
