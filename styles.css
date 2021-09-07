@@ -16,7 +16,7 @@ body {
     background: white; 
     border: solid #FF5733; 
     border-width: 8px 0 2px 0;
-    width: 45%;
+    width: 42%;
     height: auto;
 
 }
@@ -61,7 +61,7 @@ header h2 {
   
 header h1 { 
     
-    font-size: 300%; 
+    font-size: 200%; 
     text-transform: uppercase; 
 
 }
@@ -93,7 +93,7 @@ li {
     
     line-height: 24px; 
     list-style: none;
-    border-bottom: 1px solid #FF5733; 
+    border-bottom: 1px solid #ccc; 
 
 }
 
@@ -158,8 +158,8 @@ footer h2 {
       width: 100%;
     }
 
-    .top-header h1{
+  /*  .top-header h1{
         width: 100%;
-    }
+    }*/
 }
 
