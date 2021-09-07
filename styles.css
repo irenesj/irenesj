@@ -1,4 +1,3 @@
-/* //-- grids style overrides -- */
 body { 
 
     font-family: Arial, Helvetica, sans-serif;
@@ -59,30 +58,7 @@ header h2 {
     text-align: center;
   }
 
-#bd, footer { margin-bottom: 0.5em; }
-.gf{ margin-top: 5%; }
-
-/* //-- footer -- */
-footer { 
-    
-    padding: 1em 0 5em 0; 
-    font-size: 100%; 
-    border-top: 1px solid #ccc; 
-    text-align: center; 
-    word-spacing: 80%;
-    color: #000;
-
-}
-
-
-footer h2 { 
-    
-    margin-bottom: 0; 
-    text-align: center; 
-
-} 
-
-/* //-- core typography and style -- */
+  /* //-- core typography and style -- */
 header h1 { 
     
     font-size: 300%; 
@@ -105,8 +81,14 @@ p {
 }
 
 
-a { color: rgb(144, 12, 63) }
-a:hover { text-decoration: none; }
+a { 
+    color: rgb(144, 12, 63);
+    -webkit-transition: font-size .3s ease;
+    -moz-transition: font-size .3s ease;
+    -o-transition: font-size .3s ease;
+    transition: font-size .3s ease;
+}
+a:hover { text-decoration: none; font-size: 120%;}
 
 
 li { 
@@ -154,3 +136,27 @@ p.enlarge {
 .talent { width: 29%; float: left }
 .talent h2 { margin-bottom: 6px; }
 .gf div.first{width:70%;}
+
+#bd, footer { margin-bottom: 0.5em; }
+.gf{ margin-top: 5%; }
+
+/* //-- footer -- */
+footer { 
+    
+    padding: 1em 0 5em 0; 
+    font-size: 100%; 
+    border-top: 1px solid #ccc; 
+    text-align: center; 
+    word-spacing: 80%;
+    color: #000;
+
+}
+
+
+footer h2 { 
+    
+    margin-bottom: 0; 
+    text-align: center; 
+
+} 
+
