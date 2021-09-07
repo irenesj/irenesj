@@ -58,7 +58,7 @@ header h2 {
     text-align: center;
   }
 
-  /* //-- core typography and style -- */
+  
 header h1 { 
     
     font-size: 300%; 
@@ -130,8 +130,6 @@ p.enlarge {
 .talent { width: 29%; float: left }
 .talent h2 { margin-bottom: 6px; }
 .gf div.first{width:70%;}
-
-#bd, footer { /*margin-bottom: 0.5em; */}
 .gf{ margin-top: 5%; }
 
 /* //-- footer -- */
