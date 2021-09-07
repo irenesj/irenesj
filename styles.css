@@ -156,3 +156,10 @@ footer h2 {
 
 } 
 
+/* Use a media query for responsive design */
+@media{
+    .inner{
+      width: 95%;
+    }
+  }
+
