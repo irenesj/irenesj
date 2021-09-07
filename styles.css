@@ -197,5 +197,9 @@ footer h2 {
 
     }
 
+    div#diamond1{
+        display: none;
+    }
+
 }
 
