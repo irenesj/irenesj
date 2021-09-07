@@ -197,7 +197,7 @@ footer h2 {
 
     }
 
-    div#diamond1{
+    div.diamond1, div.diamond2, div.diamond3, div.diamond4{
         display: none;
     }
 
