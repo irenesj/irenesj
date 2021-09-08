@@ -51,7 +51,7 @@ h2 { text-decoration: underline;}
 h3, h4 { font-size: 125%; }
 p { 
     
-    font-size: 100%; 
+    font-size: 120%; 
     padding-right: 0.01em;
 
 }
@@ -77,13 +77,13 @@ p.enlarge {
 
 .education { 
     
-    position: relative; 
+  /*  position: relative; */
     margin-bottom: 1em; 
     padding-bottom: 1em; 
     border-bottom: 1px solid #ccc; 
 
 }
-.education h4 { position: absolute; top: 0.35em; right: 0 }
+.education h4 { /*position: absolute; */top: 0.35em; right: 0 }
 .education p { margin: 0.75em 0 3em 0; }
 .last { border: none; }
 
