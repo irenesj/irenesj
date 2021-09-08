@@ -14,31 +14,20 @@ body {
     background: white; 
     border: solid #FF5733; 
     border-width: 8px 0 2px 0;
-    width: 43%;
+    width: 40%;
     height: auto;
 
 }
 
 
-/*-- header, body, footer -- */
+/* -- header -- */
 header { 
     
     margin: 2.5em 0 3em 0; 
     padding-bottom: 1.5em; 
-
-}
-
-
-header h2 { 
-    
-    text-transform: uppercase; 
-}
-
-.top-header {
-
+    text-transform: uppercase;
     background: white;
     height: 54px;
-    
     background-image: linear-gradient(
       to right, 
       #130C77 ,
@@ -49,43 +38,25 @@ header h2 {
       #6DBCAF 75%,
       #C70039 75%
     );
-    
     background-size: 100% 6px;
     background-position: 50% 100%;
     background-repeat: no-repeat;
     text-align: center;
+    
   }
 
-  
-header h1 { 
-    
-    font-size: 200%; 
-    text-transform: uppercase; 
 
-}
-
-
-h2 { 
-    font-size: 152%; 
-    text-decoration: underline;
-}
-
-h3, h4 { font-size: 122%; }
-h1, h2, h3, h4 { color: #333; }
-
-
+/* -- body -- */
+h2 { text-decoration: underline;}
+h3, h4 { font-size: 125%; }
 p { 
     
     font-size: 100%; 
-    line-height: 18px; 
     padding-right: 0.01em;
 
 }
 
-
 a { color: #C70039}
-a:hover { text-decoration: none; }
-
 
 li { 
     
@@ -95,18 +66,14 @@ li {
 
 }
 
-
 p.enlarge { 
     
-    font-size: 130%; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
     padding-bottom: 3em; 
-    line-height: 27px; 
+    line-height: 25px; 
     border-bottom: 1px solid #ccc;
 
 }
-
-.last { border-bottom: 0 }
 
 .education { 
     
@@ -116,40 +83,35 @@ p.enlarge {
     border-bottom: 1px solid #ccc; 
 
 }
-
-
 .education h4 { position: absolute; top: 0.35em; right: 0 }
 .education p { margin: 0.75em 0 3em 0; }
-
 .last { border: none; }
+
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { width: 29%; float: left }
 .talent h2 { margin-bottom: 6px; }
+
 .gf div.first{width:70%;}
 .gf{ margin-top: 5%; }
 
-/* //-- footer -- */
+
+/* -- footer -- */
 footer { 
     
     padding: 1em 0 5em 0; 
+    margin-bottom: 0; 
     font-size: 100%;
     text-align: center; 
     word-spacing: 80%;
     color: #000;
+    
 
 }
 
 
-footer h2 { 
-    
-    margin-bottom: 0; 
-    text-align: center; 
-
-} 
-
-/* Use a media query for responsive design */
+/* Media query for responsive design */
 @media only screen and (max-device-width: 900px) {
 
     div#inner{ width: 90%;}
